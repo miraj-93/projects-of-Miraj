@@ -1,0 +1,107 @@
+.work-sans-normal{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth"100;
+  }
+/* header background img*/
+.header{
+    background-image: url('background-1.PNG'),url('background-2.jpg');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    width: 30px,45px;
+}
+/* Nav Style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.dark-2{
+    color:#474747
+}
+.style-red{
+    color: brown;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+.button{
+    background-color: coral;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 45px 0px 150px;
+
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 55px;
+}
+.banner-content{
+    width: 580px;
+}
+.profile-pic{
+    width: 280px;
+    height: 300px;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+   border-radius: 10px;
+   padding:90px 150px;
+   text-align:center ;
+   margin-top: 100px;
+  
+}
+.about-title{
+     font-size: 48px;
+}
+.about-me{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.about-description{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+    
+}
+}
+.about-title{
+    font-size: 48px;
+
+}
